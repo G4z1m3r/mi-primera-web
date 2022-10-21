@@ -1,26 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <script src="https://kit.fontawesome.com/7f132e5771.js" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/style.css">
-  <title>Document</title>
+  <title>PanaderiaPedrin</title>
 </head>
 <body>
   <nav>
-    <img src="panadero.JPG" alt="logotipo">
+    <img src="img/panadero.JPG" alt="logotipo">
     <button class="menu"><a href="#">Inicio</a></button>
     <button class="menu"><a href="#">Productos</a></button>
     <button class="menu"><a href="#">Productos Especiales</a></button>
     <div class="final">
-      <button class="menu"><i class="fa-solid fa-bag-shopping"></i></button>
-      <button class="menu"><i class="fa-solid fa-user"></i></button>
-    </div>
-    
-    
+      <button class="menu" class="final"><i class="fa-solid fa-bag-shopping fa-xl"></i></button>
+      <button class="menu" class="final"><i class="fa-solid fa-user fa-xl"></i></button>
+    </div> 
   </nav>
+
   <div class="container-header">
     <div class="bg-image"></div>
     <div class="bg-text">
@@ -28,5 +27,34 @@
       <p>El mejor pan hecho con masa madre</p>
     </div> 
   </div>
+
+  <div class="section-header">
+    <h2>Que nos diferencia</h2>
+    <div class="section-items">
+      
+      <i class="fa-solid fa-heart fa-2xl"></i>
+      <i class="fa-solid fa-cookie-bite fa-2xl"></i>
+      <i class="fa-solid fa-person-shelter fa-2xl"></i>
+
+    </div>
+  </div>
+
+  
+
+  <script>
+    const loadfn = () => {
+      const _nav = document.querySelector('nav').style;
+      window.addEventListener('scroll', (e) => {
+        if (window.scrollY > 10) {
+          _nav.backgroundColor = '#212121';
+          _nav.boxShadow = '2px 2px 4px rgba(0,0,0,0.5)';
+        } else {
+          _nav.backgroundColor = 'transparent';
+          _nav.boxShadow = 'none';
+        }
+      });
+    };
+  </script>
+
 </body>
 </html>

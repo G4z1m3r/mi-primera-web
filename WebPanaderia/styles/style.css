@@ -1,9 +1,12 @@
+:root{
+  --c1: #DB4200;
+}
 body{
   margin:0;
   padding:0;
 }
 header{
-  height: 40vh;
+  height: 60vh;
   background-image: url(https://a.storyblok.com/f/120479/6d797da1b3/mitos-pan-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,4 +129,18 @@ a:hover {
 
 a:active {
   text-decoration: none;
+}
+
+.section-header{
+  text-align: center;
+  background-color: var(--c1);
+  height: 50vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.section-items {
+
 }
