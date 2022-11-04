@@ -1,0 +1,22 @@
+:root{
+  --c1: #DB4200;
+  --c2: #F57106;
+}
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.diferencias{
+  height: 40vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.diferencias-section1 i{
+  border:1px;
+  border-radius: 3rem;
+}
+.fa-solid .fa-heart{
+  border:1px;
+  border-radius: 3rem;
+}

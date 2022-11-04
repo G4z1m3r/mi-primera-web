@@ -1,0 +1,95 @@
+:root{
+  --c1: #D96704;
+  --c2: #F2B077;
+  --c3: #A63F03;
+  --c4: #592202;
+  --c5: #400101;
+}
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.productos-header{
+  text-align: center;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-top: 5rem;
+  width:100%;
+  background-color: var(--c5);
+  row-gap: 2rem;
+  padding-bottom: 2rem;
+}
+.icontainer img{
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  padding-bottom: 2rem;
+}
+.diferencia-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 2rem;
+  background-color: var(--c1);
+  max-width: 33%;
+}
+
+.comprar {
+  align-items: center;
+  background-color: rgba(240, 240, 240, 0.26);
+  border-radius: 16px;
+  border: 0;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  justify-content: center;
+  line-height: 28px;
+  max-width: 100%;
+  padding: 14px 22px;
+  text-decoration: none;
+  transition: all .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.comprar:active,
+.comprar:active:hover {
+  outline: 0;
+}
+
+.comprar:hover {
+  background-color: #FFFFFF;
+  border-color: rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 768px) {
+  .comprar {
+    font-size: 20px;
+    min-width: 200px;
+    padding: 14px 16px;
+  }
+}
+
+.panel {
+  background-color: lightblue;
+  width: 15vw;
+  height: calc(100vh - 3rem);
+  position: fixed;
+  right: 0;
+  display: none;
+}
