@@ -11,7 +11,7 @@
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <script>
       const abrir_panel = () => {
-        const panel = document.querySelectorAll('.panel')[0].style;
+        const panel = document.querySelectorAll('.lista-compra')[0].style;
         panel.display = panel.display === 'none' ? 'block' : 'none';
       };
   </script>
@@ -26,13 +26,36 @@
     <div class="final">
       <button class="menu" class="final" onclick="abrir_panel()"><i class="fa-solid fa-bag-shopping fa-xl"></i></button>
       <button class="menu" class="final"><i class="fa-solid fa-user fa-xl"></i></button>
-      <div class="panel"></div>
     </div>
   </nav>
 
+  <div class="lista-compra">
+    <div class="listado">
+      <div class="producto-carro">
+        <img src=""  />
+        <div class="infoproducto-carro">
+          <h3>Producto 1</h3>
+          <h4>1.5$</h4>
+          <button>Retirar pedido</button>
+        </div>
+      </div>
+      <div class="producto-carro">
+        <img src=""  />
+        <div class="infoproducto-carro">
+          <h3>Producto 2</h3>
+          <h4>1$</h4>
+          <button>Retirar pedido</button>
+        </div>
+      </div>
+    </div>
+    <div class="menu-carro">
+      <a href="#"><button>Ir mi carro de la compra</button></a>
+    </div>
+  </div>
+
   <div class="productos-header">
     <div class="diferencia-item">
-      <div class="icontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
+      <div class="imgcontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
       <div class="diferencia-body">
         <h2>PRODUCTO 1</h2>
         <p>para pan pan para pan pan pan para pan pan para pan pan pan</p>
@@ -40,7 +63,7 @@
       </div>
     </div>
     <div class="diferencia-item">
-      <div class="icontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
+      <div class="imgcontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
       <div class="diferencia-body">
         <h2>PRODUCTO 2</h2>
         <p>para pan pan para pan pan pan para pan pan para pan pan pan</p>
@@ -48,7 +71,7 @@
       </div>
     </div>
     <div class="diferencia-item">
-      <div class="icontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
+      <div class="imgcontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
       <div class="diferencia-body">
         <h2>PRODUCTO 3</h2>
         <p>para pan pan para pan pan pan para pan pan para pan pan pan</p>
@@ -56,7 +79,7 @@
       </div>
     </div>
     <div class="diferencia-item">
-      <div class="icontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
+      <div class="imgcontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
       <div class="diferencia-body">
         <h2>PRODUCTO 3</h2>
         <p>para pan pan para pan pan pan para pan pan para pan pan pan</p>
@@ -64,7 +87,7 @@
       </div>
     </div>
     <div class="diferencia-item">
-      <div class="icontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
+      <div class="imgcontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
       <div class="diferencia-body">
         <h2>PRODUCTO 3</h2>
         <p>para pan pan para pan pan pan para pan pan para pan pan pan</p>
@@ -72,7 +95,7 @@
       </div>
     </div>
     <div class="diferencia-item">
-      <div class="icontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
+      <div class="imgcontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
       <div class="diferencia-body">
         <h2>PRODUCTO 3</h2>
         <p>para pan pan para pan pan pan para pan pan para pan pan pan</p>
@@ -80,7 +103,7 @@
       </div>
     </div>
     <div class="diferencia-item">
-      <div class="icontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
+      <div class="imgcontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
       <div class="diferencia-body">
         <h2>PRODUCTO 3</h2>
         <p>para pan pan para pan pan pan para pan pan para pan pan pan</p>
@@ -88,7 +111,7 @@
       </div>
     </div>
     <div class="diferencia-item">
-      <div class="icontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
+      <div class="imgcontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
       <div class="diferencia-body">
         <h2>PRODUCTO 3</h2>
         <p>para pan pan para pan pan pan para pan pan para pan pan pan</p>
@@ -96,7 +119,7 @@
       </div>
     </div>
     <div class="diferencia-item">
-      <div class="icontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
+      <div class="imgcontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
       <div class="diferencia-body">
         <h2>PRODUCTO 3</h2>
         <p>para pan pan para pan pan pan para pan pan para pan pan pan</p>
@@ -104,7 +127,7 @@
       </div>
     </div>
     <div class="diferencia-item">
-      <div class="icontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
+      <div class="imgcontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
       <div class="diferencia-body">
         <h2>PRODUCTO 3</h2>
         <p>para pan pan para pan pan pan para pan pan para pan pan pan</p>
@@ -112,7 +135,7 @@
       </div>
     </div>
     <div class="diferencia-item">
-      <div class="icontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
+      <div class="imgcontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
       <div class="diferencia-body">
         <h2>PRODUCTO 3</h2>
         <p>para pan pan para pan pan pan para pan pan para pan pan pan</p>
@@ -120,7 +143,7 @@
       </div>
     </div>
     <div class="diferencia-item">
-      <div class="icontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
+      <div class="imgcontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
       <div class="diferencia-body">
         <h2>PRODUCTO 3</h2>
         <p>para pan pan para pan pan pan para pan pan para pan pan pan</p>
@@ -128,7 +151,7 @@
       </div>
     </div>
     <div class="diferencia-item">
-      <div class="icontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
+      <div class="imgcontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
       <div class="diferencia-body">
         <h2>PRODUCTO 3</h2>
         <p>para pan pan para pan pan pan para pan pan para pan pan pan</p>
@@ -136,7 +159,7 @@
       </div>
     </div>
     <div class="diferencia-item">
-      <div class="icontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
+      <div class="imgcontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
       <div class="diferencia-body">
         <h2>PRODUCTO 3</h2>
         <p>para pan pan para pan pan pan para pan pan para pan pan pan</p>
@@ -144,7 +167,7 @@
       </div>
     </div>
     <div class="diferencia-item">
-      <div class="icontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
+      <div class="imgcontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
       <div class="diferencia-body">
         <h2>PRODUCTO 3</h2>
         <p>para pan pan para pan pan pan para pan pan para pan pan pan</p>
@@ -152,7 +175,7 @@
       </div>
     </div>
     <div class="diferencia-item">
-      <div class="icontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
+      <div class="imgcontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
       <div class="diferencia-body">
         <h2>PRODUCTO 3</h2>
         <p>para pan pan para pan pan pan para pan pan para pan pan pan</p>
@@ -160,7 +183,7 @@
       </div>
     </div>
     <div class="diferencia-item">
-      <div class="icontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
+      <div class="imgcontainer"><img src="img/pan1.jpg" alt="pan pedro"></div>
       <div class="diferencia-body">
         <h2>PRODUCTO 3</h2>
         <p>para pan pan para pan pan pan para pan pan para pan pan pan</p>
