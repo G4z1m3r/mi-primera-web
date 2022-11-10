@@ -10,6 +10,15 @@ body{
   padding:0;
   box-sizing: border-box;
 }
+
+.precio{
+  color: var(--c5);
+}
+
+.diferencia-item:hover .precio{
+  color: white;
+}
+
 .productos-header{
   text-align: center;
   background-color: white;
