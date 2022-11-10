@@ -5,6 +5,9 @@
   --c4: #592202;
   --c5: #400101;
 }
+*{
+  font-family: 'Open Sans', sans-serif;
+}
 body{
   margin:0;
   padding:0;
