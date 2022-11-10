@@ -1,0 +1,23 @@
+:root{
+  --c1: #D96704;
+  --c2: #F2B077;
+  --c3: #A63F03;
+  --c4: #592202;
+  --c5: #400101;
+}
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+#formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--c5);
+  height: 80vh;
+  color:white;
+  row-gap: 2rem;
+}
