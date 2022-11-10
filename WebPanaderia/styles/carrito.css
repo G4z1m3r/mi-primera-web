@@ -34,7 +34,6 @@ body{
   justify-content: space-evenly;
   background-color: var(--c1);
   align-items: center;
-  
 }
 
 .espacio2{
@@ -96,4 +95,16 @@ body{
     font-size: 15px;
     min-width: 20px;
   }
+}
+
+.compra{
+  width: 60vw;
+  height: 20vh;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: var(--c1);
+  align-items: center;
+  color:white;
+  padding-bottom: 1rem;
 }

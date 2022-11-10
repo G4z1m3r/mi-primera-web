@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/stylecopy.css">
+  <link rel="stylesheet" href="styles/pedidosespeciales.css">
+  <script src="https://kit.fontawesome.com/7f132e5771.js" crossorigin="anonymous"></script>
+  <title>Pedidos especiales</title>
+</head>
+<body>
+
+  <nav>
+    <img src="img/panadero.JPG" alt="logotipo">
+    <button class="menu"><a href="#">Inicio</a></button>
+    <button class="menu"><a href="#">Productos</a></button>
+    <button class="menu"><a href="#">Productos Especiales</a></button>
+    <div class="final">
+      <button class="menu" class="final"><i class="fa-solid fa-bag-shopping fa-xl"></i></button>
+      <button class="menu" class="final"><i class="fa-solid fa-user fa-xl"></i></button>
+    </div>
+  </nav>
+
+  <form id="formulario">
+    <h1 class="ftitulo">Realiza tu pedido especial</h1>
+    <div class="form-group">
+      <textarea name="textarea" rows="10" cols="50" required placeholder="Escriba la descripcion del producto que desea"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="alergeno">Alérgenos:</label>
+        <input type="text" name="alergeno" id="alergeno" placeholder="Escriba detalles sobre alérgenos">
+    </div>
+    <div class="form-group">
+        <label for="cantidad">Seleccione la cantidad:</label>
+        <input type="number" name="cantidad" id="cantidad" required>
+    </div>
+    <div class="form-group">
+        <label for="fechaEntrega">Indique una fecha de entrega:</label>
+        <input type="date" name="fechaEntrega" id="fechaEntrega" required>
+    </div>
+    <div class="form-group">
+        <label for="hora">Indique la hora de entrega:</label>
+        <input type="time" name="hora" id="hora">
+    </div>
+    <div class="form-btn">
+        <button type="submit" id="btn">Añadir a la Cesta</button>
+    </div>
+  </form>
+
+  <footer>
+
+    <div class="footer-sec1">
+      <h1>Información</h1>
+      <a href="#">¿Quiénes somos?</a>
+      <br>
+      <a href="#">Politica de privacidad</a>
+      <br>
+      <a href="#">Politica de cookies</a>
+      <br>
+      <a href="#">Condiciones legales</a>
+    </div>
+
+    <div class="footer-sec2">
+      <h1>Haz tu pedido por teléfono</h1>
+      <h2>612 345 678</h2>
+      <p>Horario de lunes a viernes de 8:00 a 21:00</p>
+    </div>
+
+    <div class="footer-sec3">
+      <h1>Síguenos en redes sociales</h1>
+      <br>
+      <div class="footer-iconos">
+        <i class="fa-brands fa-facebook fa-xl"></i>
+      <i class="fa-brands fa-instagram fa-xl"></i>
+      <i class="fa-brands fa-whatsapp fa-xl"></i>
+      <i class="fa-brands fa-youtube fa-xl"></i>
+      </div>
+      
+    </div>
+
+  </footer>
+  
+</body>
+</html>
