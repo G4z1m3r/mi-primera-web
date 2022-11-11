@@ -36,6 +36,17 @@ body{
   align-items: center;
 }
 
+.carro-producto:hover{
+  width: 60vw;
+  height: 20vh;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: var(--c3);
+  align-items: center;
+  cursor: pointer;
+}
+
 .espacio2{
   padding-bottom: 2rem;
   background-color: var(--c5);

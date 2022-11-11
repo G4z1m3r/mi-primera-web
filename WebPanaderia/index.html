@@ -10,15 +10,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="icon" type="image" href="./img/favicon.JPG">
+  <script>
+    const abrir_panel = () => {
+      const panel = document.querySelectorAll('.lista-compra')[0].style;
+      panel.display = panel.display === 'none' ? 'block' : 'none';
+    };
+</script>
   <title>PanaderiaPedrin</title>
 </head>
 
 <body>
   <nav>
     <img src="img/panadero.JPG" alt="logotipo">
-    <button class="menu"><a href="#">Inicio</a></button>
-    <button class="menu"><a href="#">Productos</a></button>
-    <button class="menu"><a href="#">Productos Especiales</a></button>
+    <button class="menu"><a href="index.html">Inicio</a></button>
+    <button class="menu"><a href="productos.html">Productos</a></button>
+    <button class="menu"><a href="pedidosespeciales.html">Pedidos Especiales</a></button>
     <div class="final">
       <button class="menu" class="final"><i class="fa-solid fa-bag-shopping fa-xl"></i></button>
       <button class="menu" class="final"><i class="fa-solid fa-user fa-xl"></i></button>
